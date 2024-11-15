@@ -7,3 +7,4 @@ jupyter
 imbalanced-learn
 xgboost
 streamlit
+tensorflow
