@@ -1,0 +1,55 @@
+# Ambientes virtuais
+.venv/
+env/
+venv/
+
+# Arquivos Python compilados
+*.pyc
+*.pyo
+__pycache__/
+
+# Configurações do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Arquivos de cache
+.cache/
+*.egg-info/
+.eggs/
+
+# Dados sensíveis
+*.env
+*.key
+
+# Diretórios de resultados
+data/processed/
+results/
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações específicas do IDE
+.vscode/
+.idea/
+
+# Arquivos gerados por testes
+test_output/
+coverage/
+
+# Arquivos gerados por matplotlib e outros gráficos
+*.png
+*.svg
+
+# Bibliotecas e pacotes instalados
+site/
+
+# Outras exclusões
+*.zip
+*.tar
+*.gz
