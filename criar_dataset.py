@@ -5,7 +5,7 @@ import random
 import numpy as np
 
 # Definição do número de linhas do dataset
-num_samples = 1000
+num_samples = 10000
 
 def gerar_numero_cartao():
     """
@@ -68,7 +68,7 @@ data = {
     "utilizacao_credito": np.random.uniform(0, 1, num_samples),
     "transacoes_suspeitas": np.random.randint(0, 10, num_samples),
     "tempo_desde_ultima_transacao": np.random.uniform(0, 30, num_samples),
-    "classe": random.choices([0, 1], weights=[95, 5], k=num_samples),
+    "classe": random.choices([0, 1], weights=[85, 15], k=num_samples),
 }
 
 # Criação do DataFrame
