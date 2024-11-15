@@ -4,3 +4,6 @@ scikit-learn
 matplotlib
 seaborn
 jupyter
+imbalanced-learn
+xgboost
+streamlit
